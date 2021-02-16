@@ -1,0 +1,106 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+ul {
+    list-style: none;
+}
+
+/* css */
+.flex-container {
+    padding: 0;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* flex-one */
+
+.project {
+    font-size: 20px;
+}
+
+.flex-item-one {
+    flex: 1;
+    min-height: 400px;
+}
+
+.li-item {
+    margin: 0;
+    padding: 10px;
+}
+
+.li-item:hover {
+    background-color: rgb(183, 204, 214);
+    cursor: pointer;
+}
+
+
+/* flex-two */
+
+.flex-item-two {
+    flex: 4;
+    background: linear-gradient(0, rgb(243, 242, 242) , rgb(240, 234, 234));
+    min-height: 400px;
+}
+
+.header {
+    color: #fff;
+    background: linear-gradient(180deg, rgb(158, 199, 104), rgb(25, 156, 25));
+}
+
+.header h1, .header p {
+    margin: 0;
+    padding: 10px;
+}
+
+/* .sidebar {
+    display: flex;
+
+} */
+
+.sidebar-one, .sidebar-two, .sidebar-three {
+    background-color: #fff;
+    min-height: 46px;
+    margin: 20px 10px;
+    /* text-align: center; */
+    /* justify-content: center; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.content input, .icon img {
+    margin-top: 14px;
+    margin-right: 5px;
+}
+
+.icon {
+    margin-right: 25px;
+}
+
+.add-item {
+    margin: 0;
+    padding: 10px;
+    position: relative;
+}
+
+.add-icon {
+    position: absolute;
+    right: 10px;
+}
+
+.add-icon:hover {
+    width: 45px;
+    height: 45px;
+}
+
+img:hover {
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+}
+
+input:hover {
+    cursor: pointer;
+}
