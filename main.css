@@ -1,106 +1,152 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
-} */
+}
 
 ul {
     list-style: none;
 }
 
-/* css */
-.flex-container {
-    padding: 0;
-    background-color: #fff;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-/* flex-one */
-
-.project {
-    font-size: 20px;
-}
-
-.flex-item-one {
-    flex: 1;
-    min-height: 400px;
-}
-
-.li-item {
-    margin: 0;
-    padding: 10px;
-}
-
-.li-item:hover {
-    background-color: rgb(183, 204, 214);
+li {
     cursor: pointer;
+    height: 45px;
 }
 
-
-/* flex-two */
-
-.flex-item-two {
-    flex: 4;
-    background: linear-gradient(0, rgb(243, 242, 242) , rgb(240, 234, 234));
-    min-height: 400px;
+body {
+    position: relative;
 }
+
+/* css */
 
 .header {
-    color: #fff;
-    background: linear-gradient(180deg, rgb(158, 199, 104), rgb(25, 156, 25));
-}
-
-.header h1, .header p {
-    margin: 0;
-    padding: 10px;
-}
-
-/* .sidebar {
-    display: flex;
-
-} */
-
-.sidebar-one, .sidebar-two, .sidebar-three {
-    background-color: #fff;
-    min-height: 46px;
-    margin: 20px 10px;
-    /* text-align: center; */
-    /* justify-content: center; */
     display: flex;
     justify-content: space-between;
 }
 
-.content input, .icon img {
-    margin-top: 14px;
-    margin-right: 5px;
+.logo {
+    /* padding: 25px 50px; */
+    width: 50%;
+    font-size: 30px;
 }
 
-.icon {
-    margin-right: 25px;
+.head-sidebar {
+    display: flex;
+    justify-content: space-around;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 96%, 86% 100%, 0 51%);
+    background-color: rgba(50, 11, 156, 0.75);
+    width: 100%;
+    height: 500px;
+    color: #fff;
+    /* border-radius: 30px; */
 }
 
-.add-item {
-    margin: 0;
-    padding: 10px;
-    position: relative;
+.sidebar {
+    display: flex;
 }
 
-.add-icon {
-    position: absolute;
-    right: 10px;
+/* .background {
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 96%, 86% 100%, 0 51%);
+    background-color: blueviolet;
+    width: 80%;
+    height: auto;
+} */
+
+.item {
+    margin: 25px 5px;
 }
 
-.add-icon:hover {
-    width: 45px;
+.sign {
+    margin: 15px;
+    cursor: pointer;
+    background-color: #fff;
+    color: blueviolet;
+    width: 100px;
     height: 45px;
+    text-align: center;
+    border-radius: 7px;
 }
 
-img:hover {
-    cursor: pointer;
-    width: 28px;
-    height: 28px;
+.sign-item {
+    box-sizing: border-box;
 }
 
-input:hover {
-    cursor: pointer;
+.add {
+    width: 100%;
+    display: flex;
+    position: relative;
+    /* margin-top: 10px; */
 }
+
+.img {
+    position: absolute;
+    right: 30%;
+    top: 20%;
+}
+
+.video {
+    position: absolute;
+    top: 230px;
+    right: 43%;
+}
+
+/* click */
+
+.click {
+    display: flex;
+    width: 40%;
+    position: absolute;
+    top: 320px;
+}
+
+.all {
+    /* position: relative; */
+    /* text-align: center; */
+    position: relative;
+    left: 50px;
+    /* text-align: center;
+    box-sizing: border-box; */
+}
+
+.crow {
+    width: 60%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.on-click {
+    display: flex;
+    /* box-sizing: border-box; */
+    /* text-align: center; */
+    /* margin: 0 50px; */
+    /* padding: 0 100px; */
+    /* padding-left: 80px; */
+}
+
+.click-item {
+    margin: 15px;
+    padding: 15px 0;
+    width: 150px;
+    height: 56px;
+    background-color: #fff;
+    border: 2px solid blueviolet;
+    border-radius: 75px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.click-item:hover {
+    background-color: blueviolet;
+    /* border: 2px solid #fff; */
+}
+
+/* .video {
+    position: relative;
+    width: 100%;
+}
+
+.video img {
+    position: absolute;
+    right: 40%;
+} */
+
+
